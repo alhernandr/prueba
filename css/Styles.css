@@ -1,0 +1,44 @@
+:root{
+--Oscuro: #000004;
+--AzulOscuro: #1a1b2b;
+--Lila: #363651;
+--LilaClaro: #58547e;
+--Voileta: #7f75af;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top, #000000, #1c1b1b, #31302f, #474644, #5d5e5b);
+}
+
+h1{
+    font-size: 3.8rem;
+    text-align: center;
+}
+.nav-bg{
+    background-color:var(--Oscuro);
+    border-radius: 5rem;
+}
+
+.nav-principal{
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration:none;
+    text-align: center;
+    color: azure;
+}
+
+a:hover{
+    background-color: var(--LilaClaro);
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    color: azure;
+}
